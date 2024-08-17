@@ -1,4 +1,4 @@
-'use-client';
+'use client';
 
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis, Tooltip, CartesianGrid, Legend } from "recharts";
 
