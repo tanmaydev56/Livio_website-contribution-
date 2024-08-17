@@ -1,0 +1,71 @@
+
+@font-face{
+  font-family:"Apfel Grotezk";
+  src:url('/src/assets/Fonts/ApfelGrotezk-Regular.woff')
+}
+
+
+@font-face{
+  font-family:"Apfel Grotezk";
+  src:url("/src/assets/Fonts/ApfelGrotezk-Regular.woff")
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url("") format('woff');
+        
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body{
+  background-color:  #F2F7F2;
+}
+@font-face{
+  font-family:"Integral CF";
+  src:url('/src/assets/Fonts/Fontspring-DEMO-integralcf-demibold.otf')
+}
+@font-face{
+  font-family:"Apfel Grotezk bold";
+  src:url('/src/assets/Fonts/ApfelGrotezk-fett.otf');
+}
+@font-face{
+    font-family:"General Sans Variable";
+    src:url('/src/assets/Fonts/GeneralSans-Medium.otf');
+/*       src: url("/src/assets/Fonts/ApfelGrotezk-Regular.woff") format('woff'); */
+}
+
+
+@font-face {
+  font-family: 'CustomFont'; 
+  src: url('/src/assets/Fonts/ApfelGrotezk-Regular.otf') ; 
+}
+
+@font-face {
+  font-family: 'CustomFont1'; 
+  src: url('/src/assets/Fonts/Fontspring-DEMO-integralcf-regular.otf'); 
+}
+
+@font-face {
+  font-family: 'CustomFont2'; 
+  src: url('/src/assets/Fonts/GeneralSans-Medium.otf'); 
+}
+
+@font-face {
+  font-family: 'CustomFont3'; 
+  src: url('../assets/Fonts/Alata-Regular.ttf');
+}

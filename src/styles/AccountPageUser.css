@@ -1,0 +1,187 @@
+:root {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Apfel Grotezk", sans-serif;
+}
+
+.account-container {
+  max-width: 1200px;
+  margin: 1.5rem auto;
+  padding: 0.1rem 2rem ;
+}
+
+.account-title {
+  color: #F47D4A;
+  text-transform: capitalize;
+  font-family: "Apfel Grotezk", sans-serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-weight:600;
+  display: inline-block;
+  letter-spacing: -2px;
+  margin-top: 0;
+  margin-left: 0;
+}
+.account-btn{
+  border-radius: 55.5px;
+background: rgba(204, 204, 204, 0.50);
+padding:40px;
+color: #000;
+text-align: center;
+font-family: "Integral CF";
+font-size: 1.3rem;
+font-weight: 400;
+line-height: normal;
+}
+.account-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.account-title::after {
+  content: '';
+  display: block;
+  width: 100%; 
+  border-top: 3px solid #ccc;
+  margin-top: 1.5rem;
+}
+
+.account-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+}
+
+.account-item {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  background-color: rgba(204, 204, 204, 0.50);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -4px -4px 16px 0px rgba(102, 102, 102, 0.10), 4px 4px 8px 0px rgba(244, 125, 74, 0.10);
+  backdrop-filter: blur(0px);
+}
+
+.account-item:hover {
+  transform: translateY(-0.5rem);
+}
+
+.account-item-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5rem;
+  color: #515062;
+}
+.account-item-icon svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.account-item-content {
+  flex: 1;
+}
+
+.account-item-heading {
+  color: #211B18;
+  font-family: "Integral CF", sans-serif;
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.account-item-subtext {
+  color: #808080;
+  font-family: "Apfel Grotezk", sans-serif;
+  font-size: 0.84rem;
+  margin: 0;
+}
+
+.additional-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.additional-item {
+  background-color: rgba(204, 204, 204, 0.50);
+  border-radius: 1rem;
+  padding: 0.5rem 2rem;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: -4px -4px 16px 0px rgba(102, 102, 102, 0.10), 4px 4px 8px 0px rgba(244, 125, 74, 0.10);
+  backdrop-filter: blur(0px);
+}
+
+.additional-item:hover {
+  transform: translateY(-0.5rem);
+}
+
+.additional-item-heading {
+  color: #515062;
+  font-family: "Integral CF", sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+.additional-item-content {
+  display: flex;
+  justify-content: start;
+}
+
+.additional-item-left, .additional-item-right {
+  flex: 1;
+}
+
+.additional-item-option {
+  color: #7F7F7F;
+  font-family: "Apfel Grotezk", sans-serif;
+  font-size: 0.9rem;
+  margin: 0.5rem 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .account-grid, .additional-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .account-title {
+    font-size: 2rem;
+  }
+
+  .account-item-heading {
+    font-size: 1.125rem;
+  }
+
+  .account-item-subtext {
+    font-size: 0.75rem;
+  }
+
+  .additional-item-heading {
+    font-size: 1.25rem;
+  }
+
+  .additional-item-option {
+    font-size: 0.875rem;
+  }
+  .account-heading{
+    
+    margin-bottom: 30px;;
+  }
+  .account-btn{
+  padding:30px;
+  font-size: 1rem;
+  }
+}

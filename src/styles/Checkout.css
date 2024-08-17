@@ -1,0 +1,186 @@
+
+@font-face {
+    font-family: 'ApfelGrotezk';
+    src: url('../assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.checkout-page{
+    font-family: 'ApfelGrotezk', sans-serif;
+}
+.checkout-header {
+    background-color: #F2F7F2;
+    color: #F47D4A;
+    padding: 0.1em;
+    text-align: left;
+    font-size: 22px;
+}
+
+
+/* checkout login page */
+
+.checkout-outer {
+    background-color: #E1E5E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.checkout-inner {
+    background-color: #EDEEED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 60vh; 
+    width: 300px; 
+}
+.checkout-inner h2{
+    margin-top: 0;
+}
+.checkout-inner .btn-google{
+    background-color: #FBFBFB;
+    color: #6F6D6D;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 0.5em;
+    padding-inline: 1em;
+}
+.checkout-inner input{
+    width: 100%;
+    background-color: #FBFBFB;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0.8em;
+    margin-inline: 5em;
+}
+.checkout-inner input:focus{
+    border: 0;
+}
+.checkout-inner .btn-proceed{
+    border: 1px solid transparent;
+    background-color: #F47D4A;
+    color: #FFF;
+    padding: 0.8em;
+    padding-inline: 2em;
+    margin: 2em;
+}
+.checkout-inner .btn-proceed:hover, .checkout-inner .btn-google:hover{
+    transform: translateY(-2px);
+}
+
+.btn-google a{
+    text-decoration: none;
+    color: #6F6D6D;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-inner .btn-createAcc{
+    text-decoration: none;
+    color: #F47D4A;
+}
+.checkout-inner span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+=======
+@font-face {
+    font-family: 'ApfelGrotezk';
+    src: url('../assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.checkout-page{
+    font-family: 'ApfelGrotezk', sans-serif;
+}
+.checkout-header {
+    background-color: #F2F7F2;
+    color: #F47D4A;
+    padding: 0.1em;
+    text-align: left;
+    font-size: 22px;
+}
+
+
+/* checkout login page */
+
+.checkout-outer {
+    background-color: #E1E5E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.checkout-inner {
+    background-color: #EDEEED;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 5em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 60vh; 
+    width: 300px; 
+}
+.checkout-inner h2{
+    margin-top: 0;
+}
+.checkout-inner .btn-google{
+    background-color: #FBFBFB;
+    color: #6F6D6D;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    border: 1px solid transparent;
+    padding: 0.5em;
+    padding-inline: 1em;
+}
+.checkout-inner input{
+    width: 100%;
+    background-color: #FBFBFB;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0.8em;
+    margin-inline: 5em;
+}
+.checkout-inner input:focus{
+    border: 0;
+}
+.checkout-inner .btn-proceed{
+    border: 1px solid transparent;
+    background-color: #F47D4A;
+    color: #FFF;
+    padding: 0.8em;
+    padding-inline: 2em;
+    margin: 2em;
+}
+.checkout-inner .btn-proceed:hover, .checkout-inner .btn-google:hover{
+    transform: translateY(-2px);
+}
+
+.btn-google a{
+    text-decoration: none;
+    color: #6F6D6D;
+    display: flex;
+    align-items: center;
+}
+
+.checkout-inner .btn-createAcc{
+    text-decoration: none;
+    color: #F47D4A;
+}
+.checkout-inner span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+

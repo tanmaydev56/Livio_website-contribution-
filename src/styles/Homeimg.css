@@ -1,0 +1,144 @@
+/* Base Styles for Homeimg Component */
+@font-face {
+  font-family: "Alata";
+  src: url("../assets/Fonts/Alata-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Base Styles for Homeimg Component */
+.home-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  text-align: center;
+}
+
+.text-container-10 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-right: 50%;
+  margin-left: 60%;
+  margin-bottom: 20%;
+}
+
+.home-text {
+  width: auto;
+}
+
+.livio {
+  position: relative;
+  font-size: 250px;
+  color: rgba(255, 255, 255, 0); /* Transparent text */
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: #fff;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0px;
+}
+
+.where {
+  position: relative;
+  color: #fff;
+  font-family: "Alata", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  width: 100%; /* Adjust as needed for spacing between texts */
+  margin-right: 19%;
+  margin-top: -70px;
+  margin-bottom: 20%;
+}
+
+/* Media Queries */
+@media (max-width: 1300px) {
+  .text-container-10 {
+    margin-right: 30%;
+    margin-left: 40%;
+  }
+
+  .livio {
+    font-size: 140px;
+    -webkit-text-stroke-width: 4px;
+  }
+
+  .where {
+    margin-right: 10%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .text-container-10 {
+    margin-right: 20%;
+    margin-left: 30%;
+  }
+
+  .livio {
+    font-size: 140px;
+    -webkit-text-stroke-width: 4px;
+  }
+
+  .where {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .text-container-10 {
+    margin-right: 10%;
+    margin-left: 20%;
+  }
+
+  .livio {
+    margin-left: 10%;
+    font-size: 80px;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .where {
+    margin-top: 1%;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 599px) {
+  .home-section{
+    width: 100%;
+  }
+  .text-container-10 {
+    margin-right: 5%;
+    margin-left: 10%;
+  }
+
+  .home-text {
+    font-size: 3.75rem; /* 60px */
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .home2-text {
+    font-size: 1.5rem; /* 24px */
+    width: 100%;
+  }
+
+  .livio {
+    font-size: 60px;
+    -webkit-text-stroke-width: 2px;
+  }
+
+  .where {
+    font-size: 24px;
+  }
+}

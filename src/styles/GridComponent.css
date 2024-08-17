@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "General Sans Variable";
+  src: url("../assets/Fonts/GeneralSans-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.grid-container {
+  display: flex;
+  flex-direction: row; /* Display items in a row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.grid-item-1,
+.grid-item-2 {
+  max-width: 34%;
+  margin: 0 1rem; /* Adjust horizontal margin for spacing between items */
+  text-align: center; /* Center text within items */
+}
+
+.separator {
+  width: 19.25rem;
+  transform: rotate(-90deg);
+  height: 1px;
+  background-color: #515062;
+  margin: 2rem 0;
+}
+
+.grid-heading {
+  color: #000000;
+  font-family: "General Sans Variable";
+  font-size: 36px;
+  font-style: bolder;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.grid-heading-2 {
+  color: #000000;
+  font-family: "General Sans Variable";
+  font-size: 24px;
+  font-style: bolder;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.grid-text {
+  width: 100%; /* Full width for text */
+  color: #515062;
+  font-family: "General Sans Variable";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+.learn-more-button {
+  color: #f47d4a;
+  font-family: "General Sans Variable";
+  font-size: 1.5rem; /* Increased font size */
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 0.5625rem 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  background-color: #f2f7f2;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: -4px -4px 16px 0px rgba(255, 126, 72, 0.15),
+    4px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 0.1rem;
+  width: fit-content;
+  margin: 0rem auto;
+}
+
+.learn-more-button:hover {
+  background-color: #f47d4a;
+  color: #ffffff;
+}

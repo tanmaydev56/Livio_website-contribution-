@@ -1,0 +1,141 @@
+
+.container-page {
+    background-color: #E1E5E1;
+  }
+  
+  .checkout-header-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F7F2;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+  }
+  
+  .checkout-header-order h1 {
+    color: #F47D4A;
+  }
+  
+  .checkout-header-order h2 {
+    font-weight: 400;
+    color: #515062;
+  }
+  
+  .checkout-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .checkout-container .checkout-left {
+    width: 70%;
+    height: 100vh;
+    padding-top:2em;
+    background-color: #E1E5E1;
+    padding-bottom:2em;
+  }
+  
+  .checkout-container .checkout-right {
+    width: 30%;
+    height: 100vh;
+    padding: 2em;
+    background-color: #FAFAFA;
+  }
+  
+  .checkout-right .col-right {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-right .row-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+    color: #515062;
+    font-family: Alata;
+    font-size: 1rem;
+  }
+  
+  .divider hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #e5e5e5;
+  }
+  
+  .thank-you {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 2em;
+  }
+  .thank-you-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1em 20em 1em 2em;
+    min-height:450px;
+  }
+  .thank-you-message {
+    color: #2A2A34;
+    font-family: Alata, sans-serif;
+    font-size: 2rem;
+    margin: 0 0 1em 0;
+  }
+  
+  .confirmation-email,
+  .customer-message {
+    color: #515062;
+    font-family: Alata, sans-serif;
+    font-size: 1rem;
+    margin: 1em 0;
+    text-align: justify;
+  }
+  
+  .last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3em;
+  }
+  
+  .last .livio {
+    color: #515062;
+    font-family: Alata, sans-serif;
+    font-size: 1.5rem;
+  }
+  
+  .last .back-to-home {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    font-family: Alata, sans-serif;
+    font-size: 0.8rem;
+    padding: 1.2em 2em;
+    cursor: pointer;
+    border-radius: 0px;
+  }
+  @media screen and (max-width: 1100px) {
+    .thank-you-msg {
+        margin: 1em 10em 1em 2em;
+      }
+}
+  @media screen and (max-width: 768px) {
+    .checkout-container {
+      flex-direction: column;
+    }
+  
+    .checkout-container .checkout-left,
+    .checkout-container .checkout-right {
+      width: 100%;
+      height: auto;
+    }
+  
+    .thank-you {
+      margin: 1em;
+    }
+
+    .thank-you-msg {
+        margin: 1em 2em 1em 2em;
+      }
+  }

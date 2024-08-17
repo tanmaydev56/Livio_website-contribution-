@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@500&family=Inter:wght@400;500;600&display=swap');
+
+@font-face {
+    font-family: 'IntegralCF';
+    src: url('../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    color: #F47D4A;
+    margin: 0;
+    font-size: 96px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    font-family: 'IntegralCF';
+}
+
+.wishlist-btn,
+.dashboard-btn {
+    padding: 10px 20px;
+    background-color: #D8D5D1;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    height: 111px;
+    width: 209px;
+    border-radius: 55.5px;
+    font-weight: 200px;
+    font-size: 24px;
+    font-family: 'IntegralCF';
+}
+
+.wishlist-btn:hover,
+.dashboard-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.description {
+    margin-top: 10px;
+    font-size: 24px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.addresses {
+    display: flex;
+}
+
+.billing-address h2, .shipping-address h2 {
+    margin-bottom: 75px;
+    font-size: 48px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.address-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit-icon {
+    margin-bottom: 40px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.shipping-address {
+    margin-left: 500px;
+}
+
+.shipping-address, .billing-address {
+    font-size: 20px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.shipping-address p, .billing-address p {
+    line-height: 12px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .shipping-address {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .heading {
+        font-size: 72px;
+    }
+
+    .buttons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .wishlist-btn, .dashboard-btn {
+        height: 80px;
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .addresses {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .billing-address h2, .shipping-address h2 {
+        margin-bottom: 40px;
+        font-size: 36px;
+    }
+
+    .shipping-address {
+        margin-left: 0;
+    }
+
+    .shipping-address, .billing-address {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 48px;
+        text-align: center;
+        margin-left: 55px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wishlist-btn, .dashboard-btn {
+        height: 80px;
+        width: 150px;
+        font-size: 18px;
+        margin-left: 70px;
+    }
+
+    .description {
+        text-align: center;
+    }
+
+    .addresses {
+        align-items: center;
+    }
+
+    .billing-address h2, .shipping-address h2 {
+        font-size: 32px;
+    }
+
+    .billing-address, .shipping-address {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 36px;
+    }
+
+    .wishlist-btn, .dashboard-btn {
+        height: 50px;
+        width: 100px;
+        font-size: 16px;
+    }
+
+    .billing-address h2, .shipping-address h2 {
+        font-size: 28px;
+    }
+
+    .billing-address, .shipping-address {
+        font-size: 14px;
+    }
+}

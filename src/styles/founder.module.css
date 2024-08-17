@@ -1,0 +1,79 @@
+
+@font-face{
+    font-family:"Apfel Grotezk";
+    src:url('src/assets/Fonts/ApfelGrotezk-Regular.woff')
+}
+
+body{
+    overflow-x: hidden;
+    margin:0;
+    
+}
+.home_section {
+    position: relative;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home_image {
+    width:100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text_container_10 {
+    padding-left:90px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    width:100%;
+   gap:0px;
+   margin:0;
+    margin-top:-600px;
+    font-family: "Apfel Grotezk";
+  }
+  
+  .homeText {
+    color: #000;
+    text-align: center;
+    font-family: "Apfel Grotezk";
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 600;
+   display: flex;
+   justify-content: flex-start;
+    /* width: 37.25rem; */
+   
+    flex-shrink: 0;
+   margin:0;
+  }
+  
+  .homeText2 {
+    color: #000;
+  
+    font-family: "Apfel Grotezk";
+    font-size: 8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 6.25rem;
+    text-align: start;
+   
+   
+  }
+  
+  
+  /* Media Queries */
+  
+  @media(max-width:768px){
+    .home_image{
+        width:auto;
+    }
+    .text_container_10{
+        margin-top:-600px;
+    }
+  }

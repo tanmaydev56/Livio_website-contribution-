@@ -1,0 +1,15 @@
+.background{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    width: 900px;
+padding-bottom:30px;
+border-radius: 30px;
+border: 2px solid rgba(81, 80, 98, 0.10);
+padding-left:40px;
+padding-top:30px;
+background: #E9EEE9;
+margin-left:200px;
+margin:0;
+box-shadow:4px 4px 16px 0px rgba(0, 0, 0, 0.10), -4px -4px 16px 0px rgba(244, 125, 74, 0.10)
+}

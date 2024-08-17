@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'ApfelGrotezk';
+  src: url('../assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+.line-chart-container {
+  height: 260px;
+  width: 485px;
+  margin: 20px 20px; 
+  padding: 20px; 
+  background-color: #F6F6F6; 
+  border-radius: 20px;
+  box-shadow: 0 8px 12px  rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto', sans-serif; 
+   
+}
+
+.line-chart-container h2 {
+  margin: -10px 0 20px; /* Adjusted margin to shift heading up */
+  font-size: 22px;
+  color:  #515062;
+  font-family: 'ApfelGrotezk';
+}
+
+
+
+.line-chart-container .recharts-wrapper {
+  background-color: #F6F6F6;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 20px;
+
+}
+
+.recharts-tooltip-wrapper {
+  border-radius: 5px; 
+  right: 55px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+  
+}
+
+.recharts-legend-wrapper {
+  margin-bottom: -5px; 
+ 
+}
+
+.legend-item {
+  margin-left: 15px;
+  display: inline-flex;
+  font-family: 'Inter', sans-serif;
+}
+
+

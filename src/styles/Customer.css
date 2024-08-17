@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('/src/assets/Fonts/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApfelGrotezk';
+  src: url('/src/assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.customer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  padding: 20px; 
+  align-self: flex-end; 
+  width: 46%; 
+  height: 83vh;
+  background-color: #E9EEE9;
+  
+  font-family: 'ApfelGrotezk';
+  
+}
+h2{
+  color: #515062;
+  font-size: 31px;
+  font-family: 'IntegralCF';
+  
+}
+.row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px; 
+  border-bottom: 1px solid #ccc; 
+  flex: 1;
+  min-width: 200px; 
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.row img {
+  width: 100px; 
+  height: 100px; 
+  margin-right: 0px;
+  
+}
+
+.row .text{
+  margin-left: 60px;
+ margin-top:-60px;
+  height: 50px;
+  width:100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row .text .name{
+  font-size: 19px;
+  margin-top: 22px;
+}
+.row .text p {
+  font-size: 13px;
+  color: #000000;
+}
+
+.text img {
+  height: 70px;
+  width: 120px;  
+  margin-right: 0px;
+}
+
+.lastdiv{
+ margin-bottom: 20px;
+ margin-left: 70px;
+}
+
+.chairimg{
+  margin-left: 100px;
+  margin-bottom: -32px;
+  position: relative; 
+  z-index: 2; 
+
+}
+
+.grey-box {
+  border-radius: 12px;
+ margin-left: 90px;
+  width: 130px; /* Full width of the row */
+  height: 55px; /* Adjust the height of the grey box */
+  background-color: #ccc; /* Grey background color */
+   display: flex;
+  justify-content: center;
+  align-items: flex-end;  
+}
+
+.grey-box p{
+  margin: 0;
+  padding: 10px;
+}
+.customer-container .row .ellipse-container {
+  margin-left: 50px; /* Adjust as needed */
+}
+.ellipse-container {
+  margin-bottom: 100px; /* Keep margin-bottom for spacing */
+  width: 20px; /* Set width of the container */
+  height: 40px; /* Set height of the container */
+  display: flex;
+  flex-direction: column;
+}
+
+.ellipse {
+  margin: 0.8px;
+  width: 4px; /* Set width of the ellipse */
+  height: 4px; /* Set height of the ellipse */
+  background-color: #000000; /* Background color of the ellipse */
+  border-radius: 50%; /* Make it a circle (ellipse) */
+}
+
+

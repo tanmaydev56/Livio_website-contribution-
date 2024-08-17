@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'IntegralCF';
+  src: url('../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ApfelGrotezk';
+  src: url('../assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-self: flex-end;
+  width: 42%;
+  height: 110vh;
+  background-color: #E9EEE9;
+  margin-left: 300px;
+  font-family: 'ApfelGrotezk';
+}
+
+.grey-box p {
+  margin-left: 120px;
+  background-color: #b9b9c2;
+  height: 60px;
+  width: 140px;
+ margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  color: #515062;
+  font-size: 31px;
+  font-family: 'IntegralCF';
+  margin-bottom: -20px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  flex: 1;
+  min-width: 200px;
+}
+
+.row:last-child {
+  border-bottom: none;
+}
+
+.firstdiv {
+  margin-bottom: 20px;
+  margin-left: -80px;
+}
+
+.chairimg {
+  margin-left: 100px;
+  margin-bottom: -39px;
+  position: relative;
+  z-index: 2;
+}
+
+.row .text {
+  margin-left: 40px;
+  margin-bottom: 25px;
+  height: 120px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text p {
+  font-size: 12px;
+  margin: 2px 0;
+  color: #000000;
+}
+
+.text img {
+  height: 70px;
+  width: 120px;
+  margin-right: 0px;
+}
+
+.ellipse-container {
+  margin-left: 250px;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ellipse {
+  margin: 0.8px;
+  width: 4px;
+  height: 4px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+  .product-container {
+    width: 70%;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .row {
+    flex-direction: row;
+    padding-bottom: 10px;
+    min-width: 200px;
+  }
+
+  .chairimg {
+    margin-left: 50px;
+    margin-bottom: -28px;
+  }
+
+  .text {
+    margin-left: 35px;
+    margin-top: 4px;
+    height: auto;
+    width: 100%;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  .text img {
+    height: 65px;
+    width: 110px;
+  }
+
+  .ellipse-container {
+    width: 18px;
+    height: 35px;
+  }
+
+  .ellipse {
+    width: 3.5px;
+    height: 3.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-container {
+    width: 80%;
+    margin-left: 0;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .row {
+    flex-direction: column;
+    padding-bottom: 8px;
+    min-width: 150px;
+  }
+
+  .chairimg {
+    margin-left: 0;
+    margin-bottom: -24px;
+  }
+
+  .text {
+    margin-left: 30px;
+    margin-top: 3px;
+    height: auto;
+    width: 100%;
+  }
+
+  .text p {
+    font-size: 13px;
+  }
+
+  .text img {
+    height: 60px;
+    width: 100px;
+  }
+
+  .ellipse-container {
+    margin-left: 100px;
+    width: 15px;
+    height: 30px;
+  }
+
+  .ellipse {
+    width: 3px;
+    height: 3px;
+  }
+}

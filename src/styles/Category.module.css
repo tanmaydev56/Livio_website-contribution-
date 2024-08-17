@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@font-face {
+  font-family: 'CustomFont1'; /* Name your font family */
+  src: url('../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf'); /* Locate the .ttf file within your directory*/
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.categoryHeading {
+  text-align: center;
+  font-size: 64px;
+  padding-top: 50px;
+  margin: 0;
+  color: #F47D4A;
+  text-align: center;
+  font-family: "CustomFont1";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ellipseBox {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.ellipse {
+  width: 158px;
+  height: 158px;
+  cursor: pointer; 
+  fill: rgba(81, 80, 98, 0.50);
+}
+
+.Category p{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  color: #515062;
+  text-align: center;
+  font-family: Alata;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100px; /* 250% */
+}
+
+.Category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.CategoryCont{
+  background-color: rgba(242, 247, 242, 1);
+}
+
+.onClickImage {
+  position: relative;
+  animation: fadeIn 0.15s ease-in-out;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.onClickImage, .ellipse{
+  min-width: 189px;
+  min-height: 189px;
+}
+
+@media (max-width: 768px) {
+  .ellipseBox{
+    flex-direction: column;
+  }
+
+  .Category p{
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+  .categoryHeading{
+    font-size: 40px;
+  }
+
+  .CategoryCont{
+    /* width: 100% !important; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}

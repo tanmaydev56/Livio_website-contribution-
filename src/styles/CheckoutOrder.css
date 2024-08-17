@@ -1,0 +1,217 @@
+
+.container-page {
+    background-color: #E1E5E1;
+}
+
+.checkout-header-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F7F2;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+}
+
+.checkout-header-order h1 {
+    color: #F47D4A;
+}
+
+.checkout-header-order h2 {
+    font-weight: 400;
+    color: #515062;
+}
+
+/* checkout your cart */
+.checkout-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-container .checkout-left {
+    width: 70%;
+    height: auto !important;
+    padding-top: 3em;
+    background-color: #E1E5E1;
+}
+
+.checkout-container .checkout-right {
+    width: 30%;
+    height: auto !important;
+    padding: 2em;
+    background-color: #FAFAFA;
+}
+
+.checkout-cart {
+    display: flex;
+    flex-direction: column;
+    margin-inline-start: 5em;
+    margin-top: 5em;
+}
+
+.checkout-cart input {
+    width: 50%;
+    background-color: #F1F1F1;
+    border: 1px solid transparent;
+    border-radius: 12px 0 0 12px;
+    padding: 1em;
+}
+
+.checkout-cart .btn-add {
+    background-color: #F47D4A;
+    padding: 1em;
+    padding-inline: 1.5em;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff;
+    transform: translateX(-8px);
+}
+.checkout-cart .btn-add:hover{
+    transform: translateX(-1px);
+}
+.checkout-cart .checkout-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-header-item{
+   display: flex;
+   flex-direction: row;
+   color: #515062;
+   margin-top: 3em;
+   margin-bottom: 3em;
+   font-weight: 600;
+}
+.checkout-header-item .header-item-checkout{
+    margin-inline-end: 11em;
+    margin-inline-start: 10em;
+}
+.checkout-header-item div{
+    margin-inline-end: 5em;
+}
+.row-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F1F1F1;
+    width: 70%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 12px;
+    padding: 1em;
+}
+.col-left{
+    margin-inline: 1em;
+}
+
+.chooseColor {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.clicked {
+    border: 3px solid #000000;
+}
+.quantity {
+    background-color: #FFFF;
+    border: 3px solid #515062;
+    color: #515062;
+    font-weight: bold;
+    border-radius: 18px;
+    cursor: pointer;
+    text-align: center;
+    padding: 0.1em;
+}
+.number {
+    font-size: 18px;
+    padding-inline: 1.5em;
+}
+
+.sub, .add {
+    font-size: 18px;
+}
+.remove-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #515062;
+}
+.remove-btn:hover{
+    transform: translateX(-2px)
+}
+
+
+
+.checkout-right .col-right{
+    display: flex;
+    flex-direction: column;
+}
+.checkout-right .row-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+}
+.checkout-right .head-right{
+    font-weight: 600;
+}
+.btn-payment {
+    background-color: #F47D4A;
+    padding: 1em;
+    padding-inline: 1.5em;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff;
+    width: 100%;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.btn-payment:hover{
+    transform: translatey(-2px)
+}
+.btn-payment{
+    margin-top: 3em;
+}
+.divider hr {
+    border: none;
+    border-top: 2px solid #E5E5E5;
+}
+
+
+/* tab view */
+@media (min-width: 600px) and (max-width: 1200px){
+    .checkout-container{
+        flex-direction: column;
+    }
+    .checkout-container .checkout-left {
+        width: 100%;
+    }
+    .checkout-container .checkout-right {
+        width: 100%;
+    }
+}
+/* mobile view */
+@media screen and (max-width: 599px) {
+    .checkout-container{
+        flex-direction: column;
+    }
+    .checkout-container .checkout-left {
+        width: 100%;
+        padding-top: 3em;
+        
+    }
+    .checkout-container .checkout-right {
+        width: 100%;
+        padding: 0.1em;
+        background-color: #FAFAFA;
+    }
+    .address-add{
+        padding: 1em;
+    }
+}

@@ -1,0 +1,97 @@
+.sellerContainer{
+    width:860px;
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+}
+.heading{
+    display:flex;
+    justify-content:space-between;
+    margin:0;
+}
+.seller{
+    color: #F47D4A;
+margin:0;
+font-family: "Apfel Grotezk";
+font-size: 36px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.sellerB{
+    color: #F47D4A;
+    margin:0;
+    font-family: "CustomFont1";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.details{
+    padding-left:10px;
+    margin:0;
+    display:flex;
+    gap:100px;
+}
+.contact{
+    display: flex;
+    flex-direction:column;
+    color: #515062;
+justify-content:center;
+    margin:0;
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+gap:15px;
+
+}
+.contact p{
+    margin:0;
+}
+.business{
+    padding-top:30px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+   gap:10px;
+}
+.elegant{
+    padding-top:12px;
+    color: #515062;
+    margin:0;
+font-family: "CustomFont2";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+
+}
+.elegantTxt{
+   margin:0;
+    width: 800px;
+height: 139px;
+color: #515062;
+padding-bottom:45px;
+line-height:45px;
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+}
+.member{
+    color: #515062;
+
+    margin:0;
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height:30px;
+}
+.socialMedia{
+    display:flex;
+    gap:10px;
+    align-items:last baseline;
+  
+    height:30px;
+}

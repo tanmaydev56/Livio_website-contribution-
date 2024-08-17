@@ -1,0 +1,363 @@
+.body {
+  overflow-x: hidden;
+  /* width: 100%; */
+  color: white;
+}
+
+@font-face {
+  font-family: "Apfel Grotezk";
+  src: url("") format("woff");
+
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Apfel Grotezk';
+  src: url("/src/assets/Fonts/ApfelGrotezk-Regular.woff") format('woff');
+}
+.blackBox {
+  font-family: "Apfel Grotezk";
+  padding-top: 50px;
+  background: #262626;
+  height: 430px;
+  width: 100%;
+  left: 0;
+  padding-bottom: 50px;
+}
+
+.content {
+  font-family: "Apfel Grotezk";
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  width: 100%;
+}
+.navHead {
+  font-family: "Apfel Grotezk";
+  align-self: center;
+  width: 782px;
+  height: 59px;
+  flex-shrink: 0;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 46px;
+  border: 3px solid #f2f7f2;
+}
+.contentContainer {
+  padding-top: 70px;
+  justify-content: space-around;
+  display: flex;
+  gap: 50px;
+}
+.Exclusive {
+  display: flex;
+  flex-direction: column;
+}
+.exc {
+  font-family: "Apfel Grotezk";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+.sub {
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2px;
+}
+.txt1 {
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+input {
+  background-color: transparent;
+  border: transparent;
+  border-radius: 4px;
+  border: 1.5px solid var(--Text, #fafafa);
+  width: 198px;
+  box-sizing: border-box;
+  padding: 12px 16px;
+  color: white;
+}
+.mailInput {
+  display: flex;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.sup {
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.acc {
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.quickLink {
+  display: flex;
+  flex-direction: column;
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.downloadApp {
+  display: flex;
+  flex-direction: column;
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+.txt2 {
+  color: var(--Text, #fafafa);
+  font-family: "Apfel Grotezk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  opacity: 0.7;
+}
+.imageBox {
+  display: flex;
+  gap: 10px;
+}
+.imageBox:hover {
+  cursor: pointer;
+}
+.playStore {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.icons2 {
+  display: flex;
+  gap: 20px;
+  padding-top: 30px;
+}
+.icons2:hover {
+  cursor: pointer;
+}
+.underline {
+  text-decoration: none;
+  color: #fafafa;
+}
+.underline:hover,
+.underline:focus,
+.underline:active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #fff;
+  cursor: pointer;
+}
+.flexContainer1 {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .blackBox {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+  }
+
+  .navHead {
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    font-size: 16px;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+  }
+
+  .Exclusive,
+  .support,
+  .account,
+  .quickLink,
+  .downloadApp {
+    align-items: center;
+    text-align: center;
+  }
+  .flexContainer1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  input {
+    padding: 10px 1px;
+  }
+  .mailInput {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  .arrow {
+    width: 10px;
+    height: 10px;
+  }
+  /* .mailInput input {
+    width: 100%;
+    margin-bottom: 10px;
+  } */
+
+  /* button{
+    transform: translate(100px,-45px);
+  } */
+  .imageBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons2 {
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blackBox {
+    margin: 0 auto;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100vw;
+  }
+  .flexContainer1 {
+    gap: 20px;
+  }
+  .navHead {
+    width: auto;
+    height: 45px;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .mailInput {
+    gap: 6px;
+  }
+  .contentContainer {
+    gap: 20px;
+    padding-top: 10px;
+  }
+  .arrow {
+    width: 1px;
+    height: 1px;
+  }
+
+  .icons2 {
+    gap: 5px;
+    padding-top: 10px;
+  }
+}
+@media (max-width: 390px) {
+  .blackBox {
+    padding: 10px;
+    height: auto;
+    width: 100vw;
+  }
+  .flexContainer1 {
+    gap: 0px;
+    display: flex;
+  }
+  .navHead {
+    width: auto;
+    height: 40px;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    font-size: 12px;
+  }
+
+  .contentContainer {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+  }
+
+  .Exclusive,
+  .support,
+  .account,
+  .quickLink,
+  .downloadApp {
+    align-items: center;
+    text-align: center;
+  }
+
+  .mailInput {
+    display: flex;
+    width: 100px;
+    gap: 5px;
+  }
+
+  .arrow {
+    width: 40px;
+    height: 10px;
+  }
+
+  input {
+    height: 35px;
+    width: 135px;
+    padding: 2px 5px;
+  }
+
+  .imageBox {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons2 {
+    justify-content: center;
+    gap: 5px;
+    padding-top: 10px;
+  }
+}

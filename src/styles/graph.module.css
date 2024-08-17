@@ -1,0 +1,70 @@
+.lineGraph{
+   
+    width: 714.243px;
+    height: 500px;
+    border-radius: 20.366px;
+border: 2px solid #EFEEEB;
+
+background: #E9EEE9;
+}
+.salesHead{
+   padding-top: 15px;
+    color: #606060;
+    padding-left:20px;
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.figure{
+  
+    color: #F47D4A;
+padding-left:20px;
+font-family: "Apfel Grotezk";
+font-size: 22.402px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fig{
+    transform:translateY(0px);
+  
+    gap:60px;
+    align-items:center;
+    display:flex;
+}
+.percent{
+    color: #16C098;
+margin-left:-15px;
+
+font-family: "Apfel Grotezk";
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.head{
+   height:50px;
+    display: flex;
+    justify-content: space-between;
+}
+.month{
+   margin-top:30px;
+   margin-right:40px;
+   border:none;
+   height:35px;
+   padding-top:0px;
+   padding-right:10px;
+   padding-left:5px;
+   border-radius: 12px;
+   background: #F6F6F6;
+    display: inline-flex;
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

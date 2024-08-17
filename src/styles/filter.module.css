@@ -1,0 +1,330 @@
+
+@font-face {
+    font-family: 'Apfel Grotezk';
+    src: url('/src/assets/Fonts/ApfelGrotezk-Regular.woff');
+  }
+  @font-face{
+    font-family:"Apfel Grotezk bold";
+    src:url('/src/assets/Fonts/ApfelGrotezk-fett.otf');
+  }
+body{
+    
+}
+p{}
+.filterContainer{
+    width: 248px;
+height: 340px;
+border-radius: 10px;
+background: #504F61;
+justify-content: flex-start;
+box-shadow: -4px -4px 16px 0px rgba(255, 126, 72, 0.05), 4px 4px 16px 0px rgba(0, 0, 0, 0.10);
+display: flex;
+flex-direction: column;
+gap:10px;
+padding-bottom:9px;
+}
+.filterHead{
+    display: flex;
+    flex-direction: column;
+    color: #F2F7F2;
+    font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left:20px;
+border-width: 212px;
+
+justify-content: space-around;
+height:50px;
+}
+.underline{
+margin-top:-20px;
+padding-left:0px;
+    width: 212px;
+height: 0px;
+border-bottom: 2px solid #F2F7F2;
+color: #F2F7F2;
+}
+.categories{
+
+height:100px;
+width:100%;
+color: #C3C3CC;
+font-family: "Apfel Grotezk";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-left:20px;
+}
+/* .categoryHead{
+    color: #C3C3CC;
+font-family: "Apfel Grotezk";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+} */
+.buttons{
+height:20px;
+    display: flex;
+    justify-content: flex-start;
+   gap:15px;
+   align-items: center;
+flex-wrap: wrap;
+
+}
+.buttons button{
+    border-radius: 17px;
+    border: 3px solid #F2F7F2;
+    color: #504F61;
+    
+    
+    font-family: "Apfel Grotezk";
+    font-size: 20px;
+    font-style: normal;
+    
+    font-weight: 600;
+    line-height: 10px;
+    background: #F2F7F2;
+      padding:7px;
+        padding-bottom:10px;
+}
+.table{
+    border-radius: 17px;
+border: 3px solid #F2F7F2;
+color: #504F61;
+
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+
+font-weight: 600;
+line-height: 10px;
+background: #F2F7F2;
+  padding:10px;
+    padding-bottom:13px;
+
+}
+.chair{
+    border-radius: 17px;
+border: 3px solid #F2F7F2;
+color: #504F61;
+
+
+font-family: "Apfel Grotezk";
+font-size: 22px;
+font-style: normal;
+
+font-weight: 600;
+line-height: 10px;
+background: #F2F7F2;
+  padding:10px;
+    padding-bottom:13px;
+}
+.sofa{
+    border-radius: 17px;
+border: 3px solid #F2F7F2;
+color: #504F61;
+
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+
+font-weight: 600;
+line-height: 10px;
+background: #F2F7F2;
+  padding:10px;
+    padding-bottom:13px;
+}
+.bed{
+    border-radius: 17px;
+    border: 3px solid #F2F7F2;
+    color: #504F61;
+    
+    
+    font-family: "Apfel Grotezk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    background: #F2F7F2;
+    padding:10px;
+    padding-bottom:13px;
+}
+.plus{
+    border-radius: 25px;
+    border: 3px solid #F2F7F2;
+    color: #F2F7F2;
+    
+    background: transparent;
+    font-family: "Apfel Grotezk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+   padding: 10px 10px;
+   padding-bottom: 12px;
+}
+.priceColumn{
+/* padding-bottom:45px; */
+/* height:10px; */
+width:100%;
+padding-left:20px;
+
+}
+.priceHead{
+   margin-top:-10px;
+    color: #C3C3CC;
+font-family: "Apfel Grotezk";
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.priceRange{
+   
+    display: flex;
+    justify-content: flex-start;
+    font-family: "Apfel Grotezk";
+    gap:10px;
+    color: #F2F7F2;
+    margin-top:-30px;
+    height:50px;
+    /* text-decoration: underline; */
+}
+ /* .arrow {
+    display: flex;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.arrow::before,
+.arrow::after {
+    content: '-----------------------------'; 
+    font-size: 24px; 
+}
+
+ .arrow::before {
+    content: '⟵';
+    margin-right: -10px; 
+}
+
+ .arrow::after {
+    content: '⟶';
+    
+}  */
+ .arrow1{
+  align-self: center;
+    justify-self: center;
+   padding-right: 1px;
+   transform: rotateY(180deg);
+   /* margin-top: 25px; */
+   
+   
+ }
+ .range{
+    padding-top:26px;
+    display: flex;
+   justify-content: center;
+    height:0px;
+   width:120px;
+   align-items: center;
+ }
+ 
+ .guideLine2{
+    width:30px;
+    height:5px;
+ }
+.ratingsBox{
+   
+padding-left:20px;
+height:10px;
+width:100%;
+}
+.starRating {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 5px; 
+    padding: 0;
+    margin: 0; 
+    color: #FFF;
+
+text-align: right;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.starRating p {
+    
+    display: flex;
+    align-items: center;
+    margin: 0; 
+    padding: 0; 
+}
+
+.starRating img {
+    margin-right: 5px; 
+}
+
+.range{
+    /* background-color: pink; */
+    /* width:100%; */
+    /* margin-top: 40px; */
+    height:20px;
+    text-align: center;
+    padding-left:25px;
+    padding-top:20px;
+}
+
+ .multi-range-slider {
+   
+    position:relative;
+    width:100%;
+    display: flex;
+    height: 30px;
+    background-color: red;
+     position: relative;
+    border: none !important;
+    border-radius: 10px;
+    padding: 20px 10px;
+    /* box-shadow: none !important;
+    flex-direction: column;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none; */
+ }
+   
+
+.multi-range-slider .thumb .caption *{
+     /* position: absolute; 
+     min-width: 30px; 
+    width:100%;
+    height: 300px;
+    font-size: 75%;
+    text-align: center;
+    line-height: 30px;
+    background-color: rgb(128, 128, 23) !important;
+    border-radius: 15px; */
+    /* color: white; */
+    /* box-shadow: 0px 0px 5px black; */
+    /* padding: 0px 5px; */
+    /* white-space: nowrap; */
+    /* background-color: orange; */
+}
+
+.multi-range-slider .thumb{
+    background-color: aqua;
+    color: aqua;
+
+}

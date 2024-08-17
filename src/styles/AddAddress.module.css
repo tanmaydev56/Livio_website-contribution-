@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap");
+
+.abhaya-libre-regular {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.abhaya-libre-medium {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.abhaya-libre-semibold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.abhaya-libre-bold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.abhaya-libre-extrabold {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.container{
+  background-color: white;
+}
+.address-form {
+  background-color: white;
+  max-width: 100%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.heading {
+  margin: 0;
+  color: rgb(244, 125, 74);
+  width: 100%;
+  display: block;
+  font-family: "Abhaya Libre", serif;
+  margin-left: 8%;
+  font-weight: 700;
+  font-size: 96px;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 40%;
+  height: 3px;
+  background-color: lightgrey;
+  position: absolute;
+  left: 0;
+  top: 90%; /* Positioning the underline right below the text */
+  margin-top: 5px; /* Adjust this value to control the distance between the text and the underline */
+}
+
+.billingHeading {
+  margin: 0;
+  margin-left: 15%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  color: black;
+  width: 100%;
+  display: block;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  flex: 1;
+  margin: 0 10px 20px 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.form-group input,
+.form-group select {
+  color: black;
+  width: 78%; /* Adjusted width for smaller input boxes */
+  padding: 8px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 2px solid black; /* Black border for visibility */
+  border-radius: 4px;
+}
+
+/* Adjusting size for the first 4 input fields */
+.form-row .form-group:nth-child(1) input,
+.form-row .form-group:nth-child(2) input,
+.form-row .form-group:nth-child(3) input,
+.form-row .form-group:nth-child(4) input {
+  width: 55%;
+}
+
+.save-address-btn {
+  font-family: "Abhaya Libre", serif;
+  font-weight: 500;
+  font-size: 24px;
+  display: block;
+  width: 15%;
+  padding: 10px;
+  height: 45px;
+  background-color: rgb(244, 125, 74);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 4%;
+}
+
+.save-address-btn:hover {
+  background-color: darkorange;
+}
+.required {
+  color: orange; /* Styling required asterisk */
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .heading {
+    font-size: 72px;
+  }
+
+  .billingHeading {
+    font-size: 36px;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 992px) {
+  .heading {
+    font-size: 64px;
+  }
+
+  .billingHeading {
+    font-size: 32px;
+  }
+
+  .address-form {
+    margin-left: 10%;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-left: 0;
+  }
+
+  .billingHeading {
+    font-size: 28px;
+    margin-left: 0;
+  }
+
+  .address-form {
+    margin-left: 0;
+  }
+
+  .form-group input,
+  .form-group select {
+    width: 100%;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading {
+    font-size: 36px;
+  }
+
+  .billingHeading {
+    font-size: 24px;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  .billingHeading {
+    font-size: 20px;
+  }
+
+  .form-group label {
+    font-size: 18px;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 8%;
+  }
+}
+
+@media (max-width: 360px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .billingHeading {
+    font-size: 18px;
+  }
+
+  .save-address-btn {
+    width: 80%;
+    margin-left: 4%;
+  }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.wishlistCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    /* width: 100vw; */
+    box-sizing: border-box;
+}
+
+.flexBox{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.flexBox1{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    /* justify-content: space-between; */
+
+}
+
+.col{
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    /* justify-content: space-between !important; */
+}
+
+.card{
+    border-radius: 40px;
+    background: #E1E5E1;
+    padding: 20px 50px;
+    width: 395px;
+    height: 403px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 10px;
+    box-sizing: border-box;
+}
+
+.card img{
+    display: block;
+    margin: 0 auto;
+    /* width: 138px; */
+    height: 117px;
+}
+
+.cardHead{
+    color: #2A2A34;
+    font-family: 'Alata', sans-serif;
+    font-family: Alata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.cardDesc{
+    color: #515062;
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.price{
+    color: #FF5F00;
+    font-family: 'Alata', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.cardBody button{
+    width: 288px;
+    height: 54px;
+    flex-shrink: 0;
+    background-color: #2A2A34;
+    display: block;
+    margin: auto;
+    border: none;
+    color: #FAFAFA;
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.remove{
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #2A2A34;
+    text-align: center;
+    font-family: Alata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.remove span{
+    margin-right: 30px;
+}
+
+/* .big{
+    width: 208px;
+    height: 177px;
+    flex-shrink: 0;
+} */

@@ -1,0 +1,112 @@
+.contentPro{
+    display:flex;
+    
+   gap:100px;
+}
+.headings{
+    display:flex;
+    
+    padding-top:40px;
+    padding-left:30px;
+    justify-content: flex-start;
+    gap:170px;
+    color: #606060;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1px;
+}
+.adjust{
+    display: flex;
+    padding-left:170px;
+    gap:140px;
+}
+.images{
+    padding-top:40px;
+    padding-left:30px;
+    gap:38px;
+   display: flex;
+   flex-direction: column;
+}
+.tshirt{
+    height:50px;
+    width:50px;
+}
+
+.ProCol{
+    display: flex;
+    gap:20px;
+    width: 340px;
+  
+}
+.proName{
+    padding-top:35px;
+    display: flex;
+    flex-direction: column;
+    gap:45px;
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ProPrice{
+    /* padding-left:130px; */
+    display: flex;
+    flex-direction: column;
+    padding-top:35px;
+    gap:45px;
+    color: #F47D4A;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ProSold{
+padding-left: 15px;
+   
+    display: flex;
+    flex-direction: column;
+    padding-top:35px;
+    gap:45px;
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.ProStatus{
+    
+   
+    
+    width:200px;
+    display: flex;
+    flex-direction: column;
+    padding-top:35px;
+    gap:45px;
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.status{
+   display:flex;
+   gap:10px;
+   align-items: center;
+}
+.dot{
+    width: 11.415px;
+height: 12.008px;
+}

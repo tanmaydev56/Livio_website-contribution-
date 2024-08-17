@@ -1,0 +1,345 @@
+@font-face {
+  font-family: "Integrel CF";
+  src: url("../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+.container {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+  height: 490px;
+  padding-left: 80px;
+  padding-right: 104px;
+  gap: 35px;
+}
+
+.heading {
+  display: flex;
+  font-family: "Apfel Grotezk";
+  height: 80px;
+  justify-content: space-evenly;
+  gap: 400px;
+  align-items: center;
+}
+
+.headPart1 {
+  display: flex;
+  gap: 61px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Apfel Grotezk";
+}
+
+.viewGallery {
+  color: #000;
+  font-family: "Apfel Grotezk";
+  font-size: 32px;
+  font-weight: 800;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+.popular {
+  color: #000;
+  font-family: "Integral CF", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: 4px solid #000;
+  padding: 10px;
+  padding-bottom: 15px;
+}
+
+.interiorTxt {
+  color: #000;
+  font-family: "Apfel Grotezk";
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.product1,
+.product2,
+.product3 {
+  border-radius: 19px;
+  background: #e1e5e1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.product1 {
+  width: 256px;
+  height: 250px;
+}
+
+.product2 {
+  width: 540px;
+  height: 250px;
+}
+
+.product3 {
+  width: 299px;
+  height: 250px;
+}
+
+.product1 p,
+.product2 p,
+.product3 p {
+  display: flex;
+  align-items: center;
+  color: #211b18;
+  font-family: "Apfel Grotezk bold";
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.newProduct {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 250px;
+  align-items: center;
+}
+
+.new {
+  padding: 10px 20px;
+  color: #000;
+  font-family: "Integral CF";
+  font-size: 20px;
+  font-weight: 200; /* Heaviest font weight */
+  text-transform: uppercase;
+  background-color: #ffa800;
+  border-radius: 12px; 
+  letter-spacing: 0.1px;
+  -webkit-text-stroke: 0.4px #000; /* Text stroke */
+}
+
+.chair2 {
+  transform: translateY(-10px);
+  width: 350px;
+  height: 280px;
+}
+
+/* Hover effects */
+.product1:hover,
+.product2:hover,
+.product3:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive design for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 30%;
+    position: relative;
+    height: max-content;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+  }
+
+  .headPart1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .viewGallery,
+  .popular {
+    font-size: 24px;
+  }
+
+  .interiorTxt {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .product1,
+  .product2,
+  .product3 {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+  }
+
+  .chair2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .newProduct {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 1.5rem;
+  }
+
+  .new {
+    font-size: 16px;
+  }
+}
+
+/* Responsive design for large smartphones (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 20px;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+  }
+
+  .headPart1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .viewGallery,
+  .popular {
+    font-size: 20px;
+  }
+
+  .interiorTxt {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .products {
+    padding-left:80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+  }
+
+  .product1,
+  .product2,
+  .product3 {
+    width: 100%;
+    max-width: 260px;
+    margin-bottom: 1rem;
+  }
+
+  .chair2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .newProduct {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 1rem;
+  }
+
+  .new {
+    font-size: 14px;
+  }
+}
+
+/* Responsive design for small smartphones (max-width: 390px) */
+@media (max-width: 390px) {
+  .container {
+    padding: 5px;
+  }
+
+  .heading {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+  }
+
+  .headPart1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .viewGallery,
+  .popular {
+    font-size: 15px;
+  }
+
+  .interiorTxt {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 1rem;
+  }
+
+  .product1,
+  .product2,
+  .product3 {
+    width: 100%;
+    max-width: 240px;
+    margin-bottom: 0.5rem;
+  }
+
+  .chair2 {
+    width: 100%;
+    height: auto;
+  }
+
+  .newProduct {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0.5rem;
+  }
+
+  .new {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1300px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 84px;
+  }
+
+  .heading {
+    gap: 350px;
+  }
+
+  .headPart1 {
+    gap: 55px;
+  }
+
+  .products {
+    gap: 50px;
+  }
+}

@@ -1,0 +1,473 @@
+/* Global styles */
+
+/* Font face */
+@font-face {
+  font-family: "Apfel Grotez";
+  src: url("../assets/Fonts/ApfelGrotezk-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Integrel CF";
+  src: url("../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Categories section */
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.categoriesHeading {
+  margin: 0;
+  text-align: center;
+  font-family: "Integral CF", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: black;
+}
+
+.categoriesPara {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  width: 33%;
+  line-height: 1.6;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 1px;
+  margin-right: 1%;
+  color: black;
+}
+
+/* Divider image */
+.divider-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+}
+
+/* Categories container */
+.categories-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 1px;
+  width: 100%;
+}
+
+.kitchen {
+  width: 23%;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.kitchen img {
+  max-width: 90%;
+  height: auto;
+}
+
+.kitchen p {
+  color: black;
+  font-family: "Space Grotesk", sans-serif;
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Banners section */
+.banners {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banners img {
+  max-width: 90%;
+  margin: 3% 0;
+  height: auto;
+}
+
+.banner-2 {
+  background-color: rgb(86, 53, 67);
+  width: 90%;
+  position: relative;
+  margin-left: 5%;
+  border-radius: 5%;
+  padding: 0;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between; /* Push items to the sides */
+}
+
+/* Text container in banner-2 */
+.text-container-3 {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 8%;
+  margin-left: 5%;
+  padding: 0;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  align-items: center;
+}
+
+.new-launch {
+  font-size: 30px;
+  font-family: "Integral CF", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.main-text {
+  font-family: "Apfel Grotez", sans-serif;
+  text-align: center;
+  margin: 0;
+  width: 90%;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Banner image in banner-2 */
+.ban-img-2 {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 65%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  /* Ensure the image behaves like a block element */
+  margin-top: 0; /* Remove any top margin */
+}
+
+/* Book now button */
+.book-now-button {
+  font-family: "Integral CF", sans-serif;
+  background-color: white;
+  color: rgb(86, 53, 67);
+  border: 2px solid rgb(86, 53, 67);
+  width: 100%;
+  padding: 10px 0px;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 30px;
+  box-sizing: border-box;
+  height: 13vh;
+  margin-top: 6%;
+}
+
+/* Discount banner */
+.discount-banner {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(86, 53, 67);
+}
+
+.text-container-4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.get {
+  margin: 0;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.instant {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.percentage {
+  font-size: 96px;
+  font-weight: bold;
+  align-self: center;
+}
+
+.off {
+  font-size: 36px;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
+  align-self: flex-end;
+  transform: rotate(180deg);
+  margin-bottom: 5%;
+}
+
+/* Features section */
+.features {
+  width: 88%;
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px;
+  margin-top: 6%;
+}
+
+.feature {
+  text-align: center;
+  max-width: 20%;
+}
+
+.feature img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.feature-text {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 36px;
+  font-weight: 100; /* Use the heaviest weight available */
+  font-family: "Apfel Grotez", sans-serif;
+  color: rgb(33, 27, 24);
+  letter-spacing: -0.5px; /* Reduce spacing for a denser look */
+}
+
+/* Media Queries */
+/* Tablets and large phones */
+@media (max-width: 768px) {
+  .categoriesHeading {
+    padding-left:40px;
+    margin-top:-40px;
+    padding-bottom:20px;
+    font-size: 36px;
+  }
+
+  .categoriesPara {
+    font-weight: 600;
+    font-size: 34px;
+    width:600px;
+   padding-left:50px;
+    
+  }
+.divider-img{
+  
+  width:600px;
+  padding-left:25px;
+  
+}
+  .categories-container {
+    font-size: 24px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .kitchen {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .banners img {
+    max-width: 80%;
+    margin: 2% 0;
+  }
+
+  .banner-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text-container-3 {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .main-text {
+    width: 90%;
+  }
+
+  .book-now-button {
+    width: 90%;
+    height: auto;
+  }
+
+  .features {
+
+ 
+    flex-direction: column;
+    align-items: center;
+  }
+.feature-text{
+  
+ 
+}
+
+  .feature {
+   
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .ban-img-2 {
+   
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .categoriesHeading {
+    font-size: 28px;
+  }
+
+  .categoriesPara {
+    font-size: 12px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .kitchen {
+    width: 100%;
+  }
+
+  .banner-2 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+  }
+
+  .banners img {
+    max-width: 100%;
+    margin: 2% 0;
+  }
+
+  .text-container-3 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-text {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .book-now-button {
+    width: 100%;
+    padding: 10px;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .features {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .feature {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+  .categoriesHeading {
+    font-size: 24px;
+  }
+
+  .categoriesPara {
+    font-size: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .banners img {
+    max-width: 100%;
+    margin: 1% 0;
+  }
+
+  .banner-2 {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .text-container-3 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .main-text {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .book-now-button {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    height: auto;
+  }
+
+  .features {
+    width: 100%;
+    padding: 0;
+  }
+
+  .feature {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1210px) {
+  .banner-2 {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+  }
+  .discount-banner {
+    width: 100%;
+    margin-left: 80%;
+  }
+  .book-now-button {
+    width: 100%;
+  }
+  .ban-img-2 {
+    width: 80%;
+    height: auto;
+  }
+}

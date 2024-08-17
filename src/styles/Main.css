@@ -1,0 +1,203 @@
+.mainside {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top */
+}
+
+.sidebar {
+  min-height: 1150px;
+  background-color: #FFFAF0;
+  width: 350px; /* Ensure fixed width */
+  margin-top: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box; /* Ensure padding is included in width and height */
+}
+
+.sidebar img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid black; /* Corrected border property */
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.sidebar .logo {
+  font-size: 20px;
+  margin-top: 20px;
+  display: flex; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.sidebar .logo button {
+  width: 100px; 
+  padding: 5px; 
+  font-size: 14px; 
+}
+
+
+.sidebar button {
+  background-color: orange;
+  color: white;
+  margin-top: 20px; 
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.logout-button-container {
+  margin-top: auto; 
+  display: flex;
+  justify-content: center; 
+  width: 100%;
+}
+
+.editprofile {
+  background-color: #fff;
+  min-height: 700px;
+  width: calc(100% - 370px); 
+  margin-top: 40px;
+  margin-left: 20px; 
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box; 
+  color: black; 
+  margin-bottom: 30px;
+}
+
+.editprofile h1 {
+  background-color: #fff;
+  color: orange;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form .right-side,
+form .left-side {
+  flex: 1;
+  min-width: 45%; 
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  color: black;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+form textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.right-side,
+.left-side {
+  background-color: #fff;
+}
+
+form .address {
+  width: 100%; /* Take full width below the left and right sides */
+  margin-top: 20px; /* Space above address field */
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form .address select {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  color: grey;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+form .address label {
+  margin-left: 10px;
+}
+
+.address-info {
+  display: flex;
+  gap: 60%;
+  background-color: #fff;
+  margin-top: 30px;
+}
+
+.residence {
+  background-color: #fff;
+}
+
+select {
+  background-color: #fff;
+  padding: 10px;
+  width: 140px;
+}
+
+.update-btn {
+  margin-top: 50px;
+  margin-right: 100%;
+  background-color: #fff;
+}
+
+.update-btn button {
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 150px;
+}
+
+.update-btn button:hover {
+  background-color: orange;
+}
+
+.footerform {
+  margin-top: 35px;
+}
+
+.footerform {
+  display: flex;
+  gap: 20px;
+}
+
+.footerform .left-footer .Buisnesslicense {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerform .left-footer select {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  color: grey;
+  font-size: 16px;
+}
+
+.footerform input {
+  width: 100%;
+}

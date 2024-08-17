@@ -1,0 +1,251 @@
+@font-face{
+  font-family:"Apfel Grotezk";
+  src:url("src/assets/Fonts/ApfelGrotezk-Regular.woff")
+}
+@font-face{
+  font-family:"Apfel Grotezk bold";
+  src:url("src/assets/Fonts/ApfelGrotezk-Satt.otf")
+}
+body{
+  background: #F2F7F2;
+}
+.FounderPage{
+  display:flex;
+  flex-direction:column;
+  background: #F2F7F2;
+}
+.grid_container {
+    display: flex;
+   
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    padding-left:0px;
+   
+    /* align-items: center; */
+  }
+  
+  .grid_item {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid_text1 {
+    color: #000;
+    letter-spacing: 1px;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    font-family: "Apfel Grotezk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    width:600px;
+    padding-left: 0px;
+  }
+  .separator{
+    background: #000;
+    width: 3px;
+height: 230px;
+transform: translateY(12px);
+  }
+  .alexFounder{
+    
+    height:300px;
+    margin-top:100px;
+    /* padding-left:50px; */
+    display: flex;
+    justify-content: space-around;
+  }
+  .alexImg {
+    width: 392px;
+height: 386px;
+flex-shrink: 0;
+margin-top:-87px;
+  }
+  .headingAlex{
+    color: #000;
+
+
+font-family: "Apfel Grotezk";
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 31px; 
+  }
+  .info2{
+    color: #000;
+
+text-align: justify;
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 31px;
+width: 712px;
+  }
+  /* @media(max-width:768px){
+    .FounderPage{
+      width:auto;
+     justify-content: center;
+     align-items: center;
+    }
+    .grid_container{
+      display: flex;
+   width:auto;
+    gap: 70px;
+    align-items: center;
+   
+    margin-top: 3rem;
+    padding-left:450px;
+    }
+    .grid_item{
+      width:auto;
+      
+    }
+    .grid_text1{
+      width:auto;
+      height:100px;
+      background-color: aquamarine;
+    }
+    
+  } */
+  @media (max-width: 768px) {
+    .grid_container {
+      display: flex;
+     /* flex-wrap: nowrap; */
+      gap: 70px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+      padding-left:600px;
+     
+      /* align-items: center; */
+    }
+    
+  
+    
+      .separator{
+        background: #000;
+        width: 80px;
+    height: 230px;
+    transform: translateY(12px);
+      }
+    
+  
+    .grid_text1 {
+      width:500px;
+      font-size: 20px;
+      line-height: 28px;
+      flex: wrap;
+    }
+  
+    .alexFounder {
+      margin-top: 50px;
+      padding-left: 100px;
+      width:800px;
+      flex: wrap;
+      
+    }
+  
+    .alexImg {
+      width: 80%;
+      height: auto;
+      margin-top: 20px;
+    }
+  
+    .info2 {
+     
+      font-size: 20px;
+      line-height: 28px;
+      flex: wrap;
+      width:500px;
+    }
+  
+    .headingAlex {
+      font-size: 36px;
+      line-height: 28px;
+      flex: wrap;
+    }
+  }
+  /* For smaller screens (460px) */
+  @media (max-width: 460px) {
+    .grid_text1 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  
+    .separator {
+      display: none;
+    }
+  
+    .alexFounder {
+      margin-top: 30px;
+    }
+  
+    .alexImg  {
+      width: 70%;
+      height: auto;
+    }
+  
+    .info2 {
+      font-size: 20px;
+      line-height: 28px;
+      flex: wrap;
+      width:500px;
+    }
+  
+    .headingAlex {
+      font-size: 30px;
+      line-height: 24px;
+    }
+  }
+  
+  /* For smallest screens (390px) */
+  @media (max-width: 390px) {
+    .grid_container {
+      display: flex;
+      flex-direction: column;
+     /* flex-wrap: nowrap; */
+      gap: 70px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3rem;
+     
+      width:100px;
+      /* align-items: center; */
+    }
+    .grid_text1 {
+      width:500px;
+      font-size: 40px;
+      line-height: 62px;
+    }
+  
+    
+  
+    .alexImg  {
+     width:700px;
+      height: 700px;
+      padding-right:700px;
+      padding-top: 250px;
+    }
+  
+    .info2 {
+      font-size: 40px;
+      line-height: 62px;
+     
+      width:500px;
+    }
+    .alexFounder {
+      margin-top: 30px;
+      gap:0px;
+      
+    }
+    .headingAlex {
+      font-size: 70px;
+      line-height: 62px;
+    }
+  }

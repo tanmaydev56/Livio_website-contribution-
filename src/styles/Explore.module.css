@@ -1,0 +1,203 @@
+/* src/components/Explore.css */
+@font-face {
+  font-family: "Integrel CF";
+  src: url("../assets/Fonts/Fontspring-DEMO-integralcf-regular.otf")
+    format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.explore-container {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.explore-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.flex-row {
+  display: flex;
+  gap: 10px;
+}
+
+.block-row {
+  display: block; /* Ensure this row behaves like a block element */
+  width: 100%; /* Make sure it takes the full width */
+  text-align: center; /* Center the content */
+}
+
+.flex-item {
+  height: 30vh;
+  flex: 1; /* Make each item take an equal amount of space */
+}
+
+.explore-text {
+  font-family:  "Integrel CF",sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-left: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #211b18 0%, #e1e5e1 100%);
+  width: 94%;
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  height: 62.5%; /* Ensure it fills the container */
+  padding: 20px;
+}
+.explore-text p{
+  flex-wrap: nowrap;
+}
+.explore-text-2 {
+  font-family:  "Integrel CF",sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 94%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #e1e5e1 0%, #211b18 100%);
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  height: 58.5%; /* Ensure it fills the container */
+  padding: 20px;
+  margin-right: 5%;
+}
+
+.flex-item img {
+  width: 100%;
+  height: auto;
+}
+.flex-item-img1 {
+  width: auto;
+  height: 24vh;
+}
+.flex-item-img2 {
+  width: 100%;
+}
+.flex-item-img3 {
+  height: 23vh;
+}
+/* ExploreButton.css */
+
+.explore-btn {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+  height: 40px;
+  margin-left: 56%;
+  width: fit-content;
+}
+.check-btn {
+  height: 40px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow as needed */
+  font-family: "Space Grotesk", sans-serif;
+  margin-left: 50%;
+  font-size: 20px;
+  width: 15%;
+}
+@media (max-width: 1200px) {
+  .explore-container {
+    padding: 10px;
+  }
+
+  .flex-row {
+    gap: 15px;
+  }
+}
+
+/* Medium screens (tablets, smaller laptops) */
+@media (max-width: 768px) {
+  .explore-container {
+    padding: 10px;
+  }
+
+  .flex-row {
+    flex-direction: column; /* Stack items vertically */
+    gap: 15px;
+  }
+
+  .explore-text,
+  .explore-text-2 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    padding: 15px;
+  }
+
+  .explore-btn,
+  .check-btn {
+    font-size: 1rem; /* Adjust button size */
+    margin-left: 2%; /* Center the buttons */
+    margin-top: 0;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  .explore-container {
+
+    padding-left: 65px;
+  }
+
+  .flex-row {
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px;
+  }
+
+  .explore-text,
+  .explore-text-2 {
+    font-size: 1.5rem; /* Adjust font size for smaller screens */
+    padding: 10px;
+  }
+
+  .explore-btn,
+  .check-btn {
+    font-size: 0.875rem; /* Adjust button size */
+    padding: 0.5rem;
+    margin-left: 2%; /* Center the buttons */
+    margin-top: 0px;
+  }
+}
+
+/* Very small screens (smaller phones) */
+@media (max-width: 360px) {
+  .explore-container {
+    padding: 5px;
+  }
+
+  .flex-row {
+    flex-direction: column; /* Stack items vertically */
+    gap: 5px;
+  }
+
+  .explore-text,
+  .explore-text-2 {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    padding: 5px;
+  }
+
+  .explore-btn,
+  .check-btn {
+    font-size: 0.75rem; /* Adjust button size */
+    padding: 0.25rem;
+    margin-left: 1%; /* Center the buttons */
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'ApfelGrotezk';
+  src: url('../assets/Fonts/ApfelGrotezk-Mittel.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+
+.total-sales {
+    height: 300px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 12px  rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    
+  }
+  
+  .total-sales h2 {
+    margin: -10px 0 10px; /* Move heading slightly up and add bottom margin */
+    font-size: 24px;
+    color:   #515062;
+    font-family: 'ApfelGrotezk';
+  }
+  
+  .chart-container {
+    display: flex;
+    align-items: center; /* Center align items vertically */
+  }
+  
+  .donut-chart {
+    height: 200px;
+    width: 200px;
+  }
+  
+  .sales-legends {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Space between legend and chart */
+  }
+  
+  .legend-items {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  .legend-box {
+    width: 20px;
+    height: 20px;
+    border-radius: 0;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .legend-text {
+    font-size: 14px;
+    color: #333;
+  }
+  

@@ -1,0 +1,275 @@
+body{
+    width:100%;
+}
+@font-face{
+    font-family:"General Sans Variable";
+    src:url('../assets/Fonts/GeneralSans-Medium.otf');
+/*       src: url("/src/assets/Fonts/ApfelGrotezk-Regular.woff") format('woff'); */
+}
+@font-face{
+  font-family:"Apfel Grotezk bold";
+  src:url('../assets/Fonts/ApfelGrotezk-Fett.otf');
+}
+
+.gridBox{
+    padding-top:50px;
+    /* padding-bottom: 50px; */
+    /* background-color: blue; */
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.row1{
+    /* background-color: pink; */
+    height:320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:35px;
+    padding: 0 150px;
+}
+.furniture{
+    /* background-color: green; */
+    height:300px;
+    z-index:2;
+    width:300px;
+    display:grid;
+    padding-left:10px;
+    grid-template-columns: auto;
+   
+}
+.img1{
+    /* background-color: aqua; */
+    width: 243px;
+height: 211px;
+justify-self: center;
+margin-top:-20px;
+z-index:-4;
+}
+.img2{
+   
+    width: 243px;
+    height: 211px;
+    justify-self: center;
+    margin-top:-20px;
+    transform: translateY(20px);
+    z-index:-4;
+}
+.background{
+    border-radius: 16px;
+    background: #E1E5E1;
+    width: 288px;
+    height: 170px;
+    flex-shrink: 0;
+    margin-top:-60px;
+    box-shadow: -4px -4px 16px 0px rgba(229, 184, 138, 0.10), 4px 4px 16px 0px rgba(194, 84, 82, 0.10);
+    z-index:-5;
+    padding-bottom:5px;
+   
+}
+.furnitureData{
+    margin-top:-113px;
+   
+   
+    width: 151px;
+height: 103px;
+justify-self: center;
+    z-index:2;
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content: center;
+    grid-template-rows: 30px 50px 20px;
+    /* justify-content: flex-start; */
+   
+    /* flex-shrink: 0; */
+}
+.luxuryHead{
+   
+    color: #211B18;
+  font-family: "General Sans Variable";
+font-size: 20px;
+font-style: normal;
+
+padding-left:10px;
+padding-bottom: 0px;
+font-weight: 600;
+line-height: normal;
+}
+.sofa{
+    color: #211B18;
+  font-family: "General Sans Variable";
+font-size: 20px;
+font-style: normal;
+
+padding-left:40px;
+padding-bottom: 0px;
+font-weight: 600;
+line-height: normal;
+}
+.barStool{
+    color: #211B18;
+    font-family: "General Sans Variable";
+  font-size: 20px;
+  font-style: normal;
+  
+  padding-left:22px;
+  padding-bottom: 0px;
+  font-weight: 600;
+  line-height: normal;
+}
+.discount{
+    padding-left:20px;
+    padding-top:140px;
+    z-index:2;
+    position:absolute;
+}
+.price{
+    margin-top:15px;
+    padding-left:35px;
+    color: #F47D4A;
+font-family: "Apfel Grotezk bold";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+/* height:0px; */
+padding-bottom:0px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    
+}
+.pvt{
+    color: #211B18;
+
+font-family: "General Sans Variable";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.row2{
+    /* background-color: pink; */
+    height:320px;
+    padding-left:240px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap:35px;
+}
+@media (max-width: 768px) {
+    .row1 {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .furniture {
+        width: 100%;
+        padding-left: 0;
+    }
+    .furnitureData{
+        justify-self: center;
+    align-self: center;
+   
+    width:100px;
+    }
+   .background{
+    justify-self: center;
+    align-self: center;
+   
+    
+   }
+   .discount{
+    justify-self: center;
+   padding-right:190px;
+   
+   }
+}
+
+@media (max-width: 480px) {
+    .row1 {
+        gap: 20px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .img1, .img2 {
+        padding-top:30px;
+        width: 180px;
+        height: 150px;
+    }
+
+    .background {
+        width: 220px;
+        height: 160px;
+      padding:20px;
+      padding-bottom: 10px;
+    }
+
+    .furnitureData {
+        padding-left:20px;
+        justify-self: center;
+        width: 110px;
+        height: 80px;
+        padding-bottom:30px;
+    }
+
+    .luxuryHead, .sofa, .barStool {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    .row1 {
+        align-self:center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        padding-left:30px;
+        /* gap: 20px; */
+        /* padding-top:30px; */
+    }
+.row2{
+    /* gap: 20px;
+    padding-top:90px; */
+}
+    .img1, .img2 {
+        padding-top:30px;
+        width: 180px;
+        height: 150px;
+    }
+
+    .background {
+        width: 220px;
+        height: 160px;
+      padding:20px;
+      padding-bottom: 10px;
+    }
+
+    .furnitureData {
+        padding-left:20px;
+        justify-self: center;
+        width: 110px;
+        height: 80px;
+        padding-bottom:30px;
+    }
+
+    .luxuryHead, .sofa, .barStool {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+}

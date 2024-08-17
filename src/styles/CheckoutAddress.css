@@ -1,0 +1,120 @@
+
+.container-page {
+    background-color: #E1E5E1;
+}
+
+.checkout-header-order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F7F2;
+    padding-inline-start: 2em;
+    padding-inline-end: 2em;
+}
+
+.checkout-header-order h1 {
+    color: #F47D4A;
+}
+
+.checkout-header-order h2 {
+    font-weight: 400;
+    color: #515062;
+}
+
+/* checkout your cart */
+.checkout-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkout-container .checkout-left {
+    width: 70%;
+    padding-top: 3em;
+    padding-bottom: 5em;
+    background-color: #E1E5E1;
+}
+
+.checkout-container .checkout-right {
+    width: 30%;
+    padding: 2em;
+    background-color: #FAFAFA;
+}
+
+.address-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5em;
+}
+.address-head{
+    color: #6F6D6D;
+    font-size: 22px;
+}
+.address-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 7em 5em;
+    background-color: #F1F1F1;
+    color: #6F6D6D;
+    border-radius: 12px;
+}
+
+
+
+
+
+
+.checkout-right .col-right{
+    display: flex;
+    flex-direction: column;
+}
+.checkout-right .row-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+}
+.btn-payment {
+    background-color: #F47D4A;
+    padding: 1em;
+    padding-inline: 1.5em;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    color: #fff;
+    width: 100%;
+    margin-top: 1em;
+    cursor: pointer;
+}
+.btn-payment:hover{
+    transform: translatey(-2px)
+}
+.btn-payment{
+    margin-top: 3em;
+}
+.divider hr {
+    border: none;
+    border-top: 2px solid #E5E5E5;
+}
+
+
+@media screen and (max-width: 599px) {
+    .checkout-container{
+        flex-direction: column;
+    }
+    .checkout-container .checkout-left {
+        width: 100%;
+        padding-top: 3em;
+        
+    }
+    .checkout-container .checkout-right {
+        width: 100%;
+        padding: 0.1em;
+        background-color: #FAFAFA;
+    }
+    .address-add{
+        padding: 1em;
+    }
+}

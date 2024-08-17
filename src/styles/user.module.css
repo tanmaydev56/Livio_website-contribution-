@@ -1,0 +1,215 @@
+.container{
+  
+   
+width:1000px;
+
+background: #FFF;
+padding-bottom:40px;
+
+box-shadow: 4px 4px 20px 0px rgba(0, 0, 0, 0.25);
+display:flex;
+flex-direction:column;
+justify-content: space-around;
+align-items: center;
+}
+.edit{
+    display:flex;
+   margin:0;
+    gap:350px;
+    align-items: center;
+}
+.editBtn{
+    width: 248px;
+height: 77px;
+border-radius: 26px;
+border: 1px solid #000;
+color: #000;
+padding:10px;
+font-family: "Apfel Grotezk";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+
+background: #B9B9B9;
+}
+.numField{
+  
+    width: 284px;
+    height: 53px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    font-size:28px;
+    padding-left:10px;
+    padding-right:10px;
+    background: rgba(255, 255, 255, 0.00);
+    
+}
+.numField::-webkit-outer-spin-button,
+.numField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.contact{
+    width: 843px;
+height: 349px;
+border-radius: 36px;
+border: 1px solid #000;
+display:flex;
+flex-direction:column;
+gap:30px;
+background: #D9D9D9;
+}
+.contactHead{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:30px;
+    color: #F47D4A;
+margin:0;
+font-family: "Apfel Grotezk";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+
+}
+.name{
+    display:flex;
+  justify-content: space-around;
+  padding-right:300px;
+}
+.phone{
+    padding-left:50px;
+}
+.account{
+    width: 843px;
+height: 286px;
+display:flex;
+flex-direction: column;
+padding-bottom:20px;
+padding-top:10px;
+border-radius: 36px;
+border: 1px solid #000;
+
+background: #D9D9D9;
+}
+.table{
+   
+    width: 752px;
+height: 195px;
+display:flex;
+flex-direction: column;
+gap:15px;
+border-radius: 36px;
+border: 1px solid #000;
+justify-self: center;
+align-self:center;
+background: #D9D9D9;
+}
+.accountHead{
+
+    color: #FF7E48;
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+}
+.row{
+    display:flex;
+  justify-content: space-between;
+  padding-left:40px;
+  padding-right:70px;
+}
+.verified{
+    border-radius: 27px;
+border: 2px solid #00B112;
+width: 116px;
+height: 39px;
+background: rgba(120, 222, 104, 0.58);
+color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+
+}
+.unverified{
+    width: 146px;
+height: 39px;
+border-radius: 27px;
+border: 2px solid #B10000;
+color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+background: rgba(239, 68, 68, 0.58);
+
+
+}
+input[type="radio"]{
+    width:33px;
+    height:33px;
+}
+.radio:checked{
+    margin:0;
+    width:33px;
+    height:43px;
+    border:7px solid #F47D4A;
+    border-radius:25px;
+    appearance:none;
+    background-color: #ffffff;
+  }
+  .mail{
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin:0;
+ /* 416.667% */
+text-decoration-line: underline;
+  }
+  .pswd{
+    color: #000;
+
+font-family: "Apfel Grotezk";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+margin:0;
+  }
+  .nameDetails{
+    color: #000;
+margin:0;
+font-family: "Apfel Grotezk";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+
+  }
+  .txt{
+    width: 284px;
+height: 53px;
+border-radius: 10px;
+border: 1px solid #000;
+font-size:28px;
+padding-left:10px;
+padding-right:10px;
+background: rgba(255, 255, 255, 0.00);
+
+
+  }
+ .first{
+    padding-left:50px;
+    margin:0;
+ }
+ .last{
+    padding-left:90px;
+ }
+ .phone{
+   
+ }

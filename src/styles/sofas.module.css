@@ -1,0 +1,132 @@
+@font-face{
+    font-family:"Alatsi";
+    src: url('/src/assets/Fonts/Alatsi-Regular.ttf')
+}
+@font-face{
+    font-family:"Poppins";
+    src: url('/src/assets/Fonts/Poppins-Light.ttf')
+}
+
+.containerBox{
+    display:flex;
+    flex-direction:column;
+}
+.imgBox{
+    display:flex;
+height: 410px;
+border-radius: 12px;
+}
+.armcha{
+    width: 723px;
+height: 410px;
+border-radius: 12px;
+background: linear-gradient(108deg, rgba(255, 251, 248, 0.25) 5.72%, rgba(252, 114, 31, 0.25) 98.6%);
+display:flex;
+flex-direction:column;
+
+padding-left:50px;
+
+}
+.saleOff{
+    color: #FE7865;
+    padding-top:20px;
+height:10px;
+font-family: "Poppins";
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: -0.184px;
+}
+.salesOff{
+    display:flex;
+    justify-content: space-between;
+    margin:0;
+    padding:0;
+   padding-right:30px;
+}
+.off{
+    transform:translate(-50px,20px)
+}
+.info2{
+    width: 490px;
+height: 87px;
+color: rgba(44, 46, 63, 0.70);
+
+
+font-family: "Alata";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: -0.467px;
+}
+.sofasHead{
+    color: #2C2E3F;
+margin-top:-20px;
+padding:0;
+margin:0;
+font-family: "Alatsi";
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px; /* 142.857% */
+letter-spacing: -1.66px;
+
+}
+.exploreItems{
+    background: #FE7865;
+    width: 376px;
+height: 70px;
+
+color: #FFF;
+align-items:center;
+font-family: Alata;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+border:none;
+border-radius: 0px;
+}
+.details{
+    display:flex;
+    justify-content: space-between;
+    width:1100px;
+    padding-left:40px;
+   
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    height:10px;
+    gap:0;
+    padding:0px;
+    margin:0;
+    
+}
+.p{
+    margin:0;
+}
+.free{
+    padding-top:10px;
+    display:flex;
+    gap:20px;
+    align-items:center;
+}
+.supportIcons{
+    width: 52px;
+height: 39px;
+}
+.divider hr{
+    margin-top:9px;
+    padding-top:50px;
+    width:2px;
+    background: #000;
+    height:10px;
+}
