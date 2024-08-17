@@ -1,4 +1,4 @@
-'use-client';
+'use client';
 
 import { LineChart, Line, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
