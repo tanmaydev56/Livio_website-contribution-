@@ -1,13 +1,13 @@
 
-import AreaChartsCompo from "../components/AreaCharts"
-import BarCharts from "../components/BarChartsRevenue"
-import BargraphCompare from "../components/BargraphCompare"
+// import AreaChartsCompo from "../components/AreaCharts"
+// import BarCharts from "../components/BarChartsRevenue"
+// import BargraphCompare from "../components/BargraphCompare"
 import DashboardHead from "../components/DashboardHead"
 import SideButtons from "../components/SideButtons"
 import ProgressBar from "@ramonak/react-progress-bar"
 import AccessibleTable from "../components/Tabels"
 import { color } from "chart.js/helpers"
-import LineCharts from "../components/LineCharts"
+// import LineCharts from "../components/LineCharts"
 
 
 const TheDashboard = () => {
@@ -406,7 +406,7 @@ const TheDashboard = () => {
            width:"100%"
            
         }}> Visitor Insights</text>
-        <LineCharts/>
+        {/* <LineCharts/> */}
         
         </div>
         
@@ -432,7 +432,7 @@ const TheDashboard = () => {
             lineHeight: "30px",
             padding: "20px", /* 125% */
         }}>Target vs Reality</text>
-        <BargraphCompare/>
+        {/* <BargraphCompare/> */}
         <div>
             <div style={{display:"flex",
             justifyContent:"space-around",
@@ -567,7 +567,7 @@ const TheDashboard = () => {
         
         
     }}> Customer Satisfaction</text>
-    <AreaChartsCompo/>
+    {/* <AreaChartsCompo/> */}
     <div style={{
         display:"flex",
         gap:"20px",
@@ -699,7 +699,8 @@ const TheDashboard = () => {
             }
         }>Total Revenue</text>
         
-        <BarCharts/></div>
+        {/* <BarCharts/> */}
+        </div>
 
 
     </div>
