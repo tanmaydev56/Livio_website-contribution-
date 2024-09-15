@@ -1,46 +1,47 @@
-'use client';
 
-import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
+import React from "react";
+import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis, Tooltip, Legend } from "recharts";
 
-const data = [
-  {
-    name: 'Monday',
-    Lastmonth: 13500,
-    thismonth: 12000,
-  },
-  {
-    name: 'Tuesday',
-    Lastmonth: 18000,
-    thismonth: 12000,
-  },
-  {
-    name: 'Wednesday',
-    Lastmonth: 5000,
-    thismonth: 22000,
-  },
-  {
-    name: 'Thursday',
-    Lastmonth: 17000,
-    thismonth: 6000,
-  },
-  {
-    name: 'Friday',
-    Lastmonth: 13000,
-    thismonth: 11000,
-  },
-  {
-    name: 'Saturday',
-    Lastmonth: 18000,
-    thismonth: 14000,
-  },
-  {
-    name: 'Sunday',
-    Lastmonth: 22000,
-    thismonth: 12500,
-  },
-];
+
 
 const BarCharts = () => {
+  const data = [
+    {
+      name: 'Monday',
+      Lastmonth: 13500,
+      thismonth: 12000,
+    },
+    {
+      name: 'Tuesday',
+      Lastmonth: 18000,
+      thismonth: 12000,
+    },
+    {
+      name: 'Wednesday',
+      Lastmonth: 5000,
+      thismonth: 22000,
+    },
+    {
+      name: 'Thursday',
+      Lastmonth: 17000,
+      thismonth: 6000,
+    },
+    {
+      name: 'Friday',
+      Lastmonth: 13000,
+      thismonth: 11000,
+    },
+    {
+      name: 'Saturday',
+      Lastmonth: 18000,
+      thismonth: 14000,
+    },
+    {
+      name: 'Sunday',
+      Lastmonth: 22000,
+      thismonth: 12500,
+    },
+  ];
   return (
     <ResponsiveContainer width="100%" height="80%">
       <BarChart data={data}>

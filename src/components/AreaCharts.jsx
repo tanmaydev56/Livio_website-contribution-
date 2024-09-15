@@ -1,46 +1,47 @@
-'use client';
+
 
 import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis, Tooltip, CartesianGrid, Legend } from "recharts";
 
-const data = [
-  {
-    name: 'Jan',
-    Lastmonth: 280,
-    thismonth: 500,
-  },
-  {
-    name: 'Feb',
-    Lastmonth: 350,
-    thismonth: 400,
-  },
-  {
-    name: 'Mar',
-    Lastmonth: 130,
-    thismonth: 520,
-  },
-  {
-    name: 'Apr',
-    Lastmonth: 130,
-    thismonth: 450,
-  },
-  {
-    name: 'May',
-    Lastmonth: 200,
-    thismonth: 550,
-  },
-  {
-    name: 'Jun',
-    Lastmonth: 170,
-    thismonth: 500,
-  },
-  {
-    name: 'Jul',
-    Lastmonth: 400,
-    thismonth: 700,
-  },
-];
 
 const AreaChartsCompo = () => {
+  const data = [
+    {
+      name: 'Jan',
+      Lastmonth: 280,
+      thismonth: 500,
+    },
+    {
+      name: 'Feb',
+      Lastmonth: 350,
+      thismonth: 400,
+    },
+    {
+      name: 'Mar',
+      Lastmonth: 130,
+      thismonth: 520,
+    },
+    {
+      name: 'Apr',
+      Lastmonth: 130,
+      thismonth: 450,
+    },
+    {
+      name: 'May',
+      Lastmonth: 200,
+      thismonth: 550,
+    },
+    {
+      name: 'Jun',
+      Lastmonth: 170,
+      thismonth: 500,
+    },
+    {
+      name: 'Jul',
+      Lastmonth: 400,
+      thismonth: 700,
+    },
+  ];
+  
   return (
     <>
       <ResponsiveContainer width="100%" height="80%">

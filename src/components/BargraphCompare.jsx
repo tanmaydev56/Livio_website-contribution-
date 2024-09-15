@@ -1,7 +1,9 @@
-'use client';
+
 
 import { Bar, BarChart, ResponsiveContainer, XAxis, Tooltip, Legend, YAxis, CartesianGrid } from "recharts";
 
+const BargraphCompare = () => {
+  
 const data = [
   {
     name: 'Jan',
@@ -35,7 +37,6 @@ const data = [
   },
 ];
 
-const BargraphCompare = () => {
   return (
     <ResponsiveContainer width="100%" height="80%">
       <BarChart data={data}>

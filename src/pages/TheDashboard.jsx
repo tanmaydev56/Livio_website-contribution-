@@ -1,13 +1,13 @@
 
-import AreaChartsCompo from "../components/AreaCharts"
-import BarCharts from "../components/BarChartsRevenue"
-import BargraphCompare from "../components/BargraphCompare"
+import AreaChartsCompo from "../components/AreaCharts.jsx"
+import BarCharts from "../components/BarChartsRevenue.jsx"
+import BargraphCompare from "../components/BargraphCompare.jsx"
 import DashboardHead from "../components/DashboardHead"
 import SideButtons from "../components/SideButtons"
-import ProgressBar from "@ramonak/react-progress-bar"
+
 import AccessibleTable from "../components/Tabels"
-import { color } from "chart.js/helpers"
-import LineCharts from "../components/LineCharts"
+
+import LineCharts from "../components/LineCharts.jsx"
 
 
 const TheDashboard = () => {
