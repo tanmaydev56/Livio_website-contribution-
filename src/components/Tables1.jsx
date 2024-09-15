@@ -8,6 +8,8 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
+export default function CustomizedTables() {
+  
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: 'rgba(81, 80, 98, 0.50)',
@@ -26,7 +28,7 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
   },
 
   '&:last-child td, &:last-child th': {
-    border: 0,
+   
     border:"none"
   },
 }));
@@ -35,7 +37,6 @@ const CustomTableContainer = styled(TableContainer)({
   border: 'none',
 });
 
-export default function CustomizedTables() {
   return (
     <div style={{
       display:'flex',
@@ -157,7 +158,7 @@ lineHeight:"normal",
             background:"#E9EEE9",
             border:"none"
           }}>
-            <StyledTableCell component="th" scope="row" style={{border:"none", border:"0px"}}>
+            <StyledTableCell component="th" scope="row" style={{border:"none"}}>
               <div style={{
                 display:"flex",
                 gap:"20px",

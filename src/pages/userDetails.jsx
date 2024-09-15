@@ -29,7 +29,7 @@ return(
     <>
     <div style={{marginTop:"-50px"}}>
     <SettingsHead/>
-    <div style={{display:"flex",paddingLeft:"10px",paddingLeft:"20px",paddingBottom:"30px",gap:"45px"}}>
+    <div style={{display:"flex",paddingLeft:"20px",paddingBottom:"30px",gap:"45px"}}>
     <SideBar/>
     <div className={styles.container}>
         <div className={styles.edit}>
